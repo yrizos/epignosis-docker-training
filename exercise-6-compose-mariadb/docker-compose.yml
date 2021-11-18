@@ -1,0 +1,21 @@
+version: '3.2'
+
+networks:
+  backend:
+
+services:
+  php-pdo:
+    build: .
+    depends_on:
+      - database
+    volumes:
+      - ./app:/app
+    networks:
+      - backend
+
+  database:
+    image: 'mariadb:latest'
+    networks:
+      - backend
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
