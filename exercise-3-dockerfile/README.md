@@ -14,13 +14,15 @@ For this exercise, our code is a simple PHP script:
 
 We define a docker image in a [Dockerfile](https://docs.docker.com/engine/reference/builder/): 
 
-    FROM php:8.0
+````dockerfile
+FROM php:8.0
 
-    WORKDIR /app
+WORKDIR /app
 
-    COPY hello.php /app/
+COPY hello.php /app/
 
-    CMD ["php", "hello.php"]
+CMD ["php", "hello.php"]
+````
 
 In this example we: 
 

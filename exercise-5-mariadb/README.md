@@ -28,9 +28,11 @@ This will fail with an error similar to this:
 
 Unfortunately, `php:8.0` does not come with PDO installed. We'll have to create our own image to include it: 
 
-    FROM php:8.0 
+````dockerfile
+FROM php:8.0 
 
-    RUN docker-php-ext-install pdo pdo_mysql
+RUN docker-php-ext-install pdo pdo_mysql
+````
 
 We can build our image with: 
 
