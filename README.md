@@ -12,7 +12,7 @@ Once you are finished with the installation, you can verify it by running:
 
 ## Exercises
 
-1. [Pull an image from a registry](./exercise-1-basics/README.md)
+1. [Pull an image from a registry](./exercise-1-pull/README.md)
 2. [Run a process in a container](./exercise-2-run/README.md)
 3. [Run our app within a container](./exercise-3-dockerfile/README.md)
 4. [Run our app using volumes](./exercise-4-volumes/README.md)
