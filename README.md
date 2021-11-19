@@ -4,7 +4,9 @@ A set of basic exercises to complement the #EpignosisDevAcademy Docker presentat
 
 ## Install docker
 
-Docker has a typical installation process and a pretty thorough [Getting Started guide](https://docs.docker.com/get-started/) Once you finished with the installation, you can verify it buy running: 
+Docker has a very typical installation process and a pretty thorough [Getting Started guide](https://docs.docker.com/get-started/).
+
+Once you are finished with the installation, you can verify it by running: 
 
     $ docker run hello-world
 
